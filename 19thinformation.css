@@ -1,0 +1,46 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: #4e3d46;
+  }
+  .welcome{
+    width: device-width;
+    height: 50px;
+    background: #372730;
+    margin: 0px;
+  }
+  .allbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .informationperperson{
+    width: 80%;
+    height: 400px;
+    background: #4e3d46;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 6%;
+    border :10px solid #372730;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* .photocontainer{
+    width: 50%;
+    height: auto; 
+} */
+  .namedep{
+    text-align: center;
+    color:
+  }
+  .photo{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    
+  }
+  
