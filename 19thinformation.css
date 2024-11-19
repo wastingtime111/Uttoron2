@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0px;
     padding: 0px;
   }
@@ -7,9 +7,42 @@
   }
   .welcome{
     width: device-width;
-    height: 80px;
+    height: 70px;
     background: #372730;
     margin: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #batchheading{
+    color: #d8d8d8;
+    align-content: center;
+    font-size: x-large;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  #logojnu{
+    height: 50px;
+  }
+  #Uttoron-2{
+    color: #d8d8d8;
+    margin: 0px;
+    position: relative;
+    top: 5px;
+  }
+  #Jagannath{
+    margin: 0px;
+    position: relative;
+    bottom: 9px;
+    font-size: 18px;
+  }
+  #heading{
+    color: #da9339;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
   .allbox{
     display: flex;
@@ -28,6 +61,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+  i{
+    
   }
   /* .photocontainer{
     width: 50%;
