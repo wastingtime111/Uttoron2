@@ -2,14 +2,35 @@
     margin: 0px;
     padding: 0px;
   }
-  body{
-    background: #4e3d46;
+   @keyframes brownBackgroundAnimation {
+    0% {
+      background: linear-gradient(45deg, #d2691e, #c57b2d, #b77d2e, #a87e2f, #9a8030, #8c8231, #7e8432, #6f4f37,#372730);
+    }
+   25% {
+      background: linear-gradient(45deg, #c57b2d, #b77d2e, #a87e2f, #9a8030, #8c8231, #7e8432, #6f4f37,#372730, #d2691e);
+    }
+    50% {
+      background: linear-gradient(45deg, #b77d2e, #a87e2f, #9a8030, #8c8231, #7e8432, #6f4f37,#372730, #d2691e, #c57b2d);
+    }
+    75% {
+      background: linear-gradient(to top, #a87e2f, #9a8030, #8c8231, #7e8432, #6f4f37,#372730, #d2691e, #c57b2d, #b77d2e);
+    }
+    100% {
+      background: linear-gradient(45deg, #d2691e, #c57b2d, #b77d2e, #a87e2f, #9a8030, #8c8231, #7e8432, #6f4f37,#372730);
+    }
+  }
+  
+  body {
+    margin: 0;
+    background: linear-gradient(45deg, #d2691e, #c57b2d, #b77d2e, #a87e2f, #9a8030, #8c8231, #7e8432, #6f4f37,#372730);
+    background-size: 400%400%;
+    animation: brownBackgroundAnimation 25s ease infinite;
   }
   .welcome{
-    width: device-width;
+    width: 50%;
     height: 70px;
     background: #372730;
-    margin: 0px;
+    margin: 25%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -50,20 +71,20 @@
     align-items: center;
   }
   .informationperperson{
-    width: 80%;
+     width: 80%;
     height: 400px;
-    background: #4e3d46;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     justify-content: center;
     margin: 30px;
     border-radius: 6%;
-    border :10px solid #372730;
+    border:10px solid rgba(255,255,255,0.18);
+    box-shadow:  15px 15px 15px 15px rgba(0,0,0,0.37);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-  }
-  i{
-    
   }
   /* .photocontainer{
     width: 50%;
@@ -98,5 +119,9 @@
     }
     .socialmedia{
       height:30px
+    }
+    .welcome{
+      width: 20%;
+      margin-left: 40%;
     }
   }
