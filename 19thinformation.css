@@ -31,6 +31,9 @@
     height: 70px;
     background: #372730;
     margin-left: 25%;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -123,5 +126,8 @@
     .welcome{
       width: 20%;
       margin-left: 40%;
+      margin-top:0;
+      margin-right:0;
+      margin-bottom:0;
     }
   }
