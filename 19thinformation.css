@@ -83,4 +83,20 @@
     width: 100%;
     background-color: #372730;
   }
-  
+
+
+
+
+
+ @media(min-width:1024px){
+    .informationperperson{
+      width: 55%;
+      height: 650px;
+    }
+    .namedep{
+      font-size:x-large;
+    }
+    .socialmedia{
+      height:30px
+    }
+  }
